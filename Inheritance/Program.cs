@@ -21,6 +21,16 @@ namespace Inheritance
             // Set this class to inherit from your Animal Class
 
 
+            var blueBird = new Bird();
+            blueBird.HasHair = true;
+            blueBird.NumOfLegs = 2;
+            blueBird.Tail = true;
+            blueBird.Species = "Bird";
+            blueBird.CanFly = true;
+            blueBird.Color = "Blue";
+            blueBird.WingSpanFeet = 1;
+            blueBird.FlyDistanceMiles = 5;
+
 
 
             /*Create an object of your Bird class
@@ -28,6 +38,16 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+            var snake = new Reptile();
+            snake.HasHair = false;
+            snake.NumOfLegs = 0;
+            snake.Tail = false;
+            snake.Species = "Snake";
+            snake.IsColdBlooded = true;
+            snake.HasLegs = false;
+            snake.HasScales = true;
+            snake.EatMeat = true;
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
